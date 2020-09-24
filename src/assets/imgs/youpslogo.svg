@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="199.273" viewBox="0 0 127 199.273">
+  <g id="youpslogo" transform="translate(-124 -298.727)">
+    <g id="local_shipping-24px" transform="translate(124 298.727)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H126.369V126.369H0Z" fill="none"/>
+      <path id="Path_2" data-name="Path 2" d="M101.042,25.061h-15.8V4H11.531A10.562,10.562,0,0,0,1,14.531V72.45H11.531a15.8,15.8,0,0,0,31.592,0H74.715a15.8,15.8,0,0,0,31.592,0h10.531V46.123ZM27.327,80.348a7.9,7.9,0,1,1,7.9-7.9A7.887,7.887,0,0,1,27.327,80.348ZM98.409,32.96l10.32,13.163H85.246V32.96Zm-7.9,47.388a7.9,7.9,0,1,1,7.9-7.9A7.887,7.887,0,0,1,90.511,80.348Z" transform="translate(4.265 17.061)" fill="#fff365"/>
+    </g>
+    <text id="YouPS" transform="translate(125 489)" fill="#fff" font-size="46" font-family="Gibson-Regular, Gibson"><tspan x="0" y="0">You</tspan><tspan y="0" fill="#fef365" font-family="Gibson-SemiBold, Gibson" font-weight="600">PS</tspan></text>
+  </g>
+</svg>

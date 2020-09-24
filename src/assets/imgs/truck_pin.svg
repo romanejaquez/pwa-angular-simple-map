@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.682" height="59.682" viewBox="0 0 59.682 59.682">
+  <g id="truck_pin" transform="translate(-948.792 -129)">
+    <g id="place-24px" transform="translate(948.792 129)">
+      <path id="Path_3" data-name="Path 3" d="M0,0H59.682V59.682H0Z" fill="none"/>
+      <path id="Path_4" data-name="Path 4" d="M22.407,2A17.4,17.4,0,0,0,5,19.407C5,32.463,22.407,51.735,22.407,51.735S39.815,32.463,39.815,19.407A17.4,17.4,0,0,0,22.407,2Zm0,23.624a6.217,6.217,0,1,1,6.217-6.217A6.219,6.219,0,0,1,22.407,25.624Z" transform="translate(7.434 2.974)" fill="#6a3f1b"/>
+    </g>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="10.5" cy="10.5" r="10.5" transform="translate(968 140.474)" fill="#6a3f1b"/>
+    <g id="local_shipping-24px" transform="translate(968.872 141.99)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H19.572V19.572H0Z" fill="none"/>
+      <path id="Path_2" data-name="Path 2" d="M16.494,7.262H14.048V4H2.631A1.636,1.636,0,0,0,1,5.631V14.6H2.631a2.446,2.446,0,0,0,4.893,0h4.893a2.446,2.446,0,0,0,4.893,0h1.631V10.524ZM5.077,15.825A1.223,1.223,0,1,1,6.3,14.6,1.222,1.222,0,0,1,5.077,15.825ZM16.087,8.485l1.6,2.039H14.048V8.485Zm-1.223,7.339A1.223,1.223,0,1,1,16.087,14.6,1.222,1.222,0,0,1,14.863,15.825Z" transform="translate(-0.185 -0.738)" fill="#fff365"/>
+    </g>
+  </g>
+</svg>
