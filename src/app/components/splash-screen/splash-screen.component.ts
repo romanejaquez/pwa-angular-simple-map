@@ -48,7 +48,7 @@ export class SplashScreenComponent implements OnInit {
       this.splashTransition = transitionStyle;
 
       setTimeout(() => {
-
+          this.showSplash = !this.showSplash;
       }, this.animationDuration * 1000);
 
     }, this.duration * 1000);

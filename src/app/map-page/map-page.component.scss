@@ -23,25 +23,12 @@
 }
 
 .map-loader {
-    background: url('./../../assets/imgs/oval.svg');
+    background: url('./../../assets/imgs/youps_loader.svg');
     background-repeat: no-repeat;
     max-width: 100%;
     background-position: center;
     background-size: cover;
     width: 130px;
     height: 130px;
-    position: absolute;
-    margin-top: 15px;
-    margin-left: 16px;
-}
-
-.map-loader-center {
-    background: url('./../../assets/imgs/truck_loader.svg');
-    background-repeat: no-repeat;
-    max-width: 100%;
-    background-position: center;
-    background-size: cover;
-    width: 70px;
-    height: 70px;
     position: absolute;
 }

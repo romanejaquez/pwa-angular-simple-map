@@ -9,6 +9,8 @@ import {} from 'googlemaps';
 })
 export class MapPageComponent implements OnInit {
 
+  mapLoaded: boolean;
+  
   map: google.maps.Map;
   center: google.maps.LatLngLiteral;
   options: google.maps.MapOptions = {
@@ -23,21 +25,31 @@ export class MapPageComponent implements OnInit {
 
   ngOnInit() {
     navigator.geolocation.getCurrentPosition(position => {
+
+      // getting the center of the map
       this.center = {
         lat: position.coords.latitude,
         lng: position.coords.longitude,
       };
 
+      // initialize the map container
       this.map = new google.maps.Map(document.getElementById('map-canvas'), {
         ...this.options,
         center: this.center
       });
 
+      // loading of the map tiles
+      this.map.addListener('tilesloaded', () => {
+        this.mapLoaded = true;
+      });
+
+      // adding a marker
       var markerStart = new google.maps.Marker({
         position: this.center,
         icon: {
           url: './assets/imgs/truck_pin.svg',
-          anchor: new google.maps.Point(35,45)
+          anchor: new google.maps.Point(35,10),
+          scaledSize: new google.maps.Size(100, 100)
         },
         map: this.map
       });
