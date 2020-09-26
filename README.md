@@ -1,4 +1,5 @@
-# Google Maps on an Angular PWA
+# YouPS - Google Maps on an Angular PWA
+## by Roman Just Codes (RJC)
 
 This project is part of a series of projects in which I'll be developing an Angular PWA app for a fictional package delivering company called "YouPS". In this installment, I'm setting up the map and adding custom pins to it.
 
