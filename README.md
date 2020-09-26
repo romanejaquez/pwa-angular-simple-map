@@ -1,4 +1,6 @@
-# SimpleMap
+# Google Maps on an Angular PWA
+
+This project is part of a series of projects in which I'll be developing an Angular PWA app for a fictional package delivering company called "YouPS". In this installment, I'm setting up the map and adding custom pins to it.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0-next.2.
 
