@@ -15,12 +15,10 @@ export class MapPageComponent implements OnInit {
   center: google.maps.LatLngLiteral;
   options: google.maps.MapOptions = {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
-    //zoomControl: false,
     scrollwheel: false,
     disableDefaultUI: true,
     disableDoubleClickZoom: true,
-    zoom: 16,
-    //styles: Utils.getDefaultMapStyles()
+    zoom: 16
   }
 
   ngOnInit() {
