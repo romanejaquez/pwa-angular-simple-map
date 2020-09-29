@@ -8,8 +8,6 @@ import {} from 'googlemaps';
   encapsulation: ViewEncapsulation.None,
 })
 export class MapPageComponent implements OnInit {
-
-  mapLoaded: boolean;
   
   map: google.maps.Map;
   center: google.maps.LatLngLiteral;
@@ -34,11 +32,6 @@ export class MapPageComponent implements OnInit {
       this.map = new google.maps.Map(document.getElementById('map-canvas'), {
         ...this.options,
         center: this.center
-      });
-
-      // loading of the map tiles
-      this.map.addListener('tilesloaded', () => {
-        this.mapLoaded = true;
       });
 
       // adding a marker
